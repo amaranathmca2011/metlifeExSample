@@ -13,6 +13,7 @@ public class HashMapEx {
 		hm.put(null, null);
 		hm.put(null, "amar");
 		hm.put(2, "ccc");
+		hm.put(4, "bujji");
 		Set<Object> se=hm.keySet();
 		Iterator<Object> itr=se.iterator();
 		while(itr.hasNext())
